@@ -1,6 +1,6 @@
 .container{
     max-width: 1200px;
-    margin: 0 auto; 
+    margin: 0 auto;
     
   }
   .menu {
@@ -13,6 +13,11 @@
   display: flex;
   align-items: center;
   font-family: 'Lato', sans-serif;
+  padding: 10px;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.33);
+box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.33);
+  
 }
 
 .menu-column {
@@ -41,6 +46,9 @@
   text-decoration: none;
   color: #585e65;
 }
+.menu-nav ul li a:hover{
+  text-decoration: underline #4c6ef5;
+}
 
 .menu-link-button {
   text-decoration: none;
@@ -51,6 +59,9 @@
   display: flex;
   align-items: center;
   border-radius: 4px;
+}
+.menu-link-button:hover{
+  background-color: #0f2c9e;
 }
 
 .products-wrapper{
@@ -75,28 +86,34 @@ ul.products-view{
 .products-list{
     max-width: 24%;
     height: 400px;
+    margin-bottom: 10px;
     border: 1px solid rgb(241, 239, 239);
     border-radius: 15px;
     background-color: white;
     
+}
+.products-list:hover{  
+  border: 1.5px solid rgba(247, 247, 247, 0.082);
 }
 .product-img{
   width: 270px;
   height: 230px;
   margin: auto;
   overflow: hidden;
-  
-  
+  text-align: center;
+  padding-top: 20px;
 
 }
 .product-text{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin-top: 30px;
+  justify-content: space-around;  
+  margin-top: -2px;
   align-items: flex-start;
   height: 95px;
-  padding-left: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  line-height: 20px;
   font-family: 'Lato', sans-serif;
 
 
@@ -106,15 +123,21 @@ ul.products-view{
   color: white;
   height: 40px;
   width: 85%;
-  border: 1px solid rgba(255, 255, 255, 0);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 15px;
   margin-left: 23px;
   font-family: 'Lato', sans-serif;
   display: block;
   text-decoration: none;
   text-align: center;
-  line-height: 40px;    
+  line-height: 30px;
+  margin-top: 23px;
+  cursor: pointer;    
         
+}
+.button-products:hover{
+  background-color: #0f2c9e
+  
 }
 
 
