@@ -26,3 +26,7 @@ A ideia principal foi um desenvolvimento de um e-commerce apenas para listar pro
 Este projeto foi desenvolvido como parte do aprendizado na Kenzie Academy Brasil, com o intuito de aplicar os conceitos de flexbox e containers, bem como utilizar as melhores práticas de HTML. Sinta-se à vontade para explorar e modificar o projeto de acordo com suas necessidades. Caso tenha alguma dúvida ou sugestão, não hesite em entrar em contato.
 
 Agradeço por utilizar o nosso e-commerce desenvolvido com flexbox. Espero que seja útil e proporcione uma experiência agradável!
+
+## Contato
+
+Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/lucasbatista-dev/).
